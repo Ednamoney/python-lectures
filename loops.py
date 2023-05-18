@@ -82,6 +82,18 @@ print('The sum of all even numbers is',sum)
 
  # Write a Python program that uses a while loop to repeatedly prompt the user to enter positive numbers, 
  # and stops when the user enters -1
+sum=0
+while True:
+    num=int(input('Enter a positive numer or enter -1 to exit:'))
+    if num==-1:
+        break
+    if num>0:
+        sum=sum+num
+    else:
+        print('Invalid input, enter a positive number')
+    print('The sum of the positive number is:', sum)
+        
+     
  
  
  #Write a program in python that takes a list of numbers and returns the maximum number in the list
