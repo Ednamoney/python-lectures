@@ -77,7 +77,7 @@ sum=0 # initialize the sum variable
 for i in range(1,11):#loop through the list of 10 numbers, add all even numbers and assign their sum to the sum variable
     if i %2==0:
         sum=sum+i
-print('the sum of the number is',sum)
+print('The sum of all even numbers is',sum)
     
 
  # Write a Python program that uses a while loop to repeatedly prompt the user to enter positive numbers, 
