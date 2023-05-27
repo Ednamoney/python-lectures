@@ -16,12 +16,19 @@ if(a%2==0): # % means modulus
 else:
     print(a,"is not divisible by 2") #is false 
     
-    #Exercise 2
-    #Write an if statement that asks for the user's name via input() function.
-    #If the name is “Acha” make it print "Welcome on board Acha” Otherwise make it print "Good morning Engr. Akum”
+# different solution that gets the number from the user:
+num1=int(input('Enter a number:'))
+if(num1%2==0):  # check if the number is divisible by 2 (i.e the remainder is 0)
+    print(num1, 'is divisible by 2')
+else:
+    print(num1, 'is not divisible by 2')
     
-    #Solution
-    name=str(input("enter any name:"))
+#Exercise 2
+#Write an if statement that asks for the user's name via input() function.
+#If the name is “Acha” make it print "Welcome on board Acha” Otherwise make it print "Good morning Engr. Akum”
+    
+#Solution
+name=str(input("enter any name:"))
 if(name=="Acha"):
     print("Welcome on board Acha")
 else:

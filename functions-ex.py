@@ -8,6 +8,14 @@ def check_number(num):
 # call function
 print(check_number(10))
 
+def check_divisibility(num1,num2):
+    if num1%num2==0:
+        return True
+    else:
+        return False
+    # call function
+print(check_divisibility(78,20))
+
 
 
 # Local Variables in Function
